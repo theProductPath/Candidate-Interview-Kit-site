@@ -455,7 +455,7 @@
       <h1 class="hero-headline">Prep every interview.<br>Compare every candidate.</h1>
       <p class="hero-subhead">
         Evidence-based prep briefs before the interview. Structured assessments after.<br>
-        <strong>Two versions: Individual Kit and Team Kit. Works with any LLM.</strong>
+        <strong>One folder. One skill. Works with any LLM.</strong>
       </p>
       <div class="hero-ctas">
         <a class="btn btn-primary" href="https://github.com/theProductPath/Candidate-Interview-Kit" target="_blank">View on GitHub →</a>
@@ -518,46 +518,32 @@
       <div class="two-col">
         <div>
           <div class="section-label">What's in the kit</div>
-          <h2 class="section-heading">Two kits. Same foundation. Different scale.</h2>
+          <h2 class="section-heading">Two kits. Same workflow. Choose your scale.</h2>
           <div class="section-body">
-            <p>Both versions are AI skills — instructions any LLM can follow. Claude, ChatGPT, Codex, local models. Point it at your folder and it knows what to do.</p>
-            <div class="pillars-grid" style="margin-top:24px;grid-template-columns:repeat(2,minmax(0,1fr));">
-              <div class="pillar-card">
-                <div class="pillar-icon">👤</div>
-                <div class="pillar-title">Individual Kit</div>
-                <div class="pillar-body">For a solo interviewer or hiring manager working alone. Prep briefs, structured assessments, and a single comparison view — one folder, one decision.</div>
-              </div>
-            </div>
-            <div class="pillars-grid" style="margin-top:24px;grid-template-columns:repeat(2,minmax(0,1fr));">
-              <div class="pillar-card">
-                <div class="pillar-icon">👥</div>
-                <div class="pillar-title">Team Kit</div>
-                <div class="pillar-body">For multi-interviewer hiring loops. Each interviewer gets personalized prep, submits assessments, and the hiring manager sees a dynamic comparison that updates as coverage changes.</div>
-              </div>
-            </div>
+            <p>The <strong>Individual Kit</strong> is for a single interviewer running the full pipeline. The <strong>Team Kit</strong> adds multi-interviewer coordination: per-interviewer prep briefs, progressive enrichment from earlier interviews, and a comparison tool with interviewer toggles.</p>
+            <p>Both are AI skills — instructions any LLM can follow. Claude, ChatGPT, Codex, local models. Point it at your folder and it knows what to do. <strong>The example walks through a complete AirCorp hiring loop with working data.</strong></p>
           </div>
         </div>
         <div class="command-block">
 <span class="cmd-dir">Candidate-Interview-Kit/</span>
 ├── README.md
-├── <span class="cmd-dir">individual-kit/</span>
+├── <span class="cmd-dir">individual-kit/</span>          ← Solo interviewer
 │   ├── <span class="cmd-file">SKILL.md</span>
-│   └── example/
-│       └── <span class="cmd-dir">AirCorp-ProductAnalyst/</span>
-│           ├── <span class="cmd-file">job-description.md</span>
-│           ├── <span class="cmd-file">interviewer-notes.md</span>
-│           └── candidates/
-│               ├── <span class="cmd-candidate">james-okafor/</span>
-│               │   ├── brief.md
-│               │   └── assessment.md
-│               ├── <span class="cmd-candidate">maya-torres/</span>
-│               │   ├── brief.md
-│               │   └── assessment.md
-│               └── <span class="cmd-candidate">priya-deshmukh/</span>
-│                   └── brief.md
-├── <span class="cmd-dir">team-kit/</span>
-│   ├── <span class="cmd-file">SKILL.md</span>
-│   └── <span class="cmd-file">example/</span>
+│   └── example/AirCorp-ProductAnalyst/
+│
+└── <span class="cmd-dir">team-kit/</span>                ← Multiple interviewers
+    ├── <span class="cmd-file">SKILL.md</span>
+    └── example/AirCorp-ProductAnalyst/
+        ├── <span class="cmd-file">_team.md</span>
+        └── candidates/
+            └── <span class="cmd-candidate">maya-torres/</span>
+                ├── <span class="cmd-candidate">sarah-chen/</span>
+                │   ├── brief.md
+                │   └── assessment.md
+                ├── <span class="cmd-candidate">marcus-lee/</span>
+                │   └── brief.md
+                └── <span class="cmd-candidate">aisha-patel/</span>
+                    └── brief.md
         </div>
       </div>
     </div>
@@ -598,7 +584,7 @@
   <section class="cta-section">
     <div class="container">
       <h2 class="cta-headline">Better interviews start with better prep.</h2>
-      <p class="cta-sub">Individual Kit for solo interviewers. Team Kit for multi-interviewer loops. Works with any LLM. Download the version that fits your next hire.</p>
+      <p class="cta-sub">One folder. One skill. Works with any LLM. Download the kit and run it on your next hire.</p>
       <div class="cta-ctas">
         <a class="btn btn-primary" href="https://github.com/theProductPath/Candidate-Interview-Kit" target="_blank">View on GitHub →</a>
         <a class="btn btn-ghost" href="mailto:sjones@theproductpath.com">Talk to Steven</a>
